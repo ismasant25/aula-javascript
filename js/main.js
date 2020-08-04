@@ -1,4 +1,31 @@
 
+function clicou(){
+    document.getElementById("agradecimento").innerHTML ="<b>obirigado por clicar</b>"; 
+    //console.log(document.getElementById("agradecimento"));
+    //alert("Obrigado por clicar");
+}
+function redirecionar(){
+    window.open("https://www.pexels.com/pt-br/procurar/contato/");
+    //window.location.href = "https://www.pexels.com/pt-br/procurar/contato/";
+}
+function trocar(elemento){
+    //document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse";
+    //alert("trocar texto");
+    elemento.innerHTML = "Obrigado por passar o mause";
+}
+ function voltar(elemento){
+     //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
+     elemento.innerHTML = "Passe o mouse";
+ }
+
+ function load(){
+     alert("pagina carregada");
+ }
+ function funcaoChange(elemento){
+     console.log(elemento.value)
+ }
+
+/*
 function soma(n1, n2){
     return n1 + n2;
 }
@@ -15,8 +42,9 @@ function validaridade(idade){
 var idade = prompt("qual a sua idade:");
 validaridade(idade)
 console.log(validar);
-//alert(soma(5, 10));
 
+//alert(soma(5, 10));
+*/
 
 /*
 var d = new Date();
